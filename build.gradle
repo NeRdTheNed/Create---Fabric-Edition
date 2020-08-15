@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.2.7-SNAPSHOT'
+	id 'fabric-loom' version '0.4-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -56,8 +56,8 @@ dependencies {
 	//modImplementation ("io.github.cottonmc.cotton:cotton:${project.cotton_version}") { exclude(module: "ModMenu") }
 	//include ("io.github.cottonmc.cotton:cotton:${project.cotton_version}") { exclude(module: "ModMenu") }
 
-	modCompile "me.sargunvohra.mcmods:autoconfig1u:v2"
-	include "me.sargunvohra.mcmods:autoconfig1u:v2"
+	modCompile "me.sargunvohra.mcmods:autoconfig1u:2.0"
+	include "me.sargunvohra.mcmods:autoconfig1u:2.0"
 }
 
 processResources {
